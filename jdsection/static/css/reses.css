@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.cfloat:after,
+.cfloat:before {
+    display: table;
+    content: "";
+}
+.cfloat:after {
+    clear: both;
+}
+.cfloat {
+    *zoom: 1;
+}
